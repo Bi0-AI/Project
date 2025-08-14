@@ -20,6 +20,15 @@
   /* box-shadow: 0 4px 12px rgba(87, 84, 84, 0.849); */
   padding-top: 150px;
 }
+.controlImage img{
+  transition: all 0.4s ease;
+}.controlImage img:hover{
+  transform:translateX(17px);
+  box-shadow: 0 14px 20px hsl(0, 0%, 0%);
+  border-radius: 30px;
+}
+
+
 .headding img{
     padding: 20px;
 }

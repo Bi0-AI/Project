@@ -21,7 +21,17 @@
   /* box-shadow: 0 4px 12px rgba(87, 84, 84, 0.849); */
   padding-top: 150px;
 
+}.controlImage img{
+  transition: all  0.3s ease;
+}.controlImage img:hover{
+  transform: translateX(17px);
+  box-shadow: 0 10px 20px hsl(240, 88%, 3%);
+  border-radius: 25px;
 }
+
+
+
+
 .headding img{
     padding: 20px;
 }
