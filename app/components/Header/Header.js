@@ -11,7 +11,7 @@ export default function Header() {
 
         {/* Image a click korle Home jabe.. */}
         <li>
-          <Link href="/">
+          <Link href="/all-page/Home">
             <Image src="/Dji-HomePage/logo.svg"alt="home-page" width={100} height={45} />
           </Link>
         </li>
