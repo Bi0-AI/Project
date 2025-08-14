@@ -1,0 +1,25 @@
+.privacySection {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin-bottom: 350px;
+}
+
+.privacySection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: navy;
+  text-align: center;
+  padding: 25px;
+}
+
+.privacySection p {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

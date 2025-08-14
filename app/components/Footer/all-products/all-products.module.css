@@ -1,0 +1,47 @@
+.sellProducts{
+  margin-top: 100px;
+  color:navy;
+  text-align: center;
+   box-shadow: 0 4px 12px rgb(34, 33, 33);
+   background-color: rgba(250, 235, 215, 0.677);
+   
+}
+ .sellProducts h1{
+ font-size: 3rem;
+ color: navy;
+}
+.productList{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.productCard{
+  border: 2px solid green;
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+}.productCard:hover{
+ box-shadow: 10px 20px 20px rgb(230, 18, 18);
+  transform: translateY(-10px);
+}
+
+.productImage{
+  width: 100%;
+  border-radius: 8px;
+}
+@media (max-width: 600px){
+
+.productList{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top:30px;
+}
+
+
+}

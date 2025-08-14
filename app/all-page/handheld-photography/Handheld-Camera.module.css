@@ -1,0 +1,101 @@
+/* all contant */
+.handheld {
+  padding: 40px;
+  text-align: center;
+  
+}.handheld h1{
+padding-bottom: 90px;
+font-size: 3rem;
+color: navy;
+}
+
+/* h1 Heading */
+.handheld h1 {
+  padding-top: 100px;
+  position: static;
+}
+
+/*Top image  */
+.Image2{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(13, 12, 12, 0.471)
+}
+
+
+
+/* Likha dewar jonno */
+.handheldCam h2{
+  color: hsl(0, 100%, 4%);
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;;
+}
+
+.button button{
+  padding: 10px;
+  margin: 10px;
+  background-color: hsla(240, 80%, 64%, 0.881);
+  font-size: 18px;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}.button button:hover{
+  background-color: hsla(240, 82%, 49%, 0.904);
+}.button{
+  font-size: 1.7rem;
+}
+
+
+
+/* For sawing: Learn more button.... */
+.seeMore{
+    background-color:#f0e1c7;
+    font-size: 18px;
+    color: navy;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    border-style: none;
+
+}.seeMore:hover{
+  background-color:#eea126;;
+}
+
+
+
+
+
+
+
+
+
+
+/* For Image Control */
+.handheldControl {
+  padding-top: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+/* responsive for mobile */
+@media (max-width: 760px) {
+  .handheld {
+    gap: 20px;
+  }
+  .handheldControl {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .Image2 {
+    width: 100% !important;
+    height: auto !important;
+  }
+}

@@ -1,0 +1,66 @@
+
+
+
+
+
+
+.nav {
+  position: fixed;  /* navbar fixed thakbe, scroll korleo upore thakbe */
+  top:0; 
+  left: 0; 
+  width: 100%; /* screen er full width nibe */
+  background-color: hsl(207, 42%, 86%);  
+  padding:2px 3px; /* upore-niche 10px, pasher dike 15px padding */
+  display: flex; /* flexbox use korbe */
+  justify-content: center;   /* horizontal center e content rakhbe */
+  align-items: center;       /* vertical center e content rakhbe */
+  z-index: 1000;             /* onno sob element er upore thakbe */     
+  text-align: center;  
+  color: rgb(0, 0, 0); 
+  margin-bottom:auto; 
+  cursor: pointer;
+}
+
+
+.ul {
+  display: flex;             /* flex layout use korbe */
+  gap: 100px;                
+  list-style: none;          
+  white-space: nowrap;       /* sob item ek line e thakbe, wrap hobe na */
+  padding:0;                
+  margin: 0;               
+  align-items: center;  
+   
+}
+
+.ul li {
+  font-size: 16px;           
+  cursor: pointer;       /* mouse pointer hover korle hat er moto hobe */
+  white-space: nowrap; 
+  gap: 20px;  
+   
+}
+
+.ul li:hover {
+  color: hsla(222, 57%, 41%, 0.8); /* hover korle color change hobe */
+  
+}
+
+
+/* Responsive */
+@media (max-width: 760px) {
+  .ul {
+    flex-direction: row;        /* mobile e row direction e thakbe */
+    justify-content: flex-start; /* left theke start hobe */
+    gap: 10px; 
+    top: 0; 
+    left: 3px;  
+    white-space: nowrap;           
+  }
+
+  .ul li {
+    font-size: 14px;   
+    white-space: nowrap;
+           
+  }
+}

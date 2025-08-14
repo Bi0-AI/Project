@@ -1,0 +1,207 @@
+
+/* Main div dorlaam */
+.slideContainer {
+ position: relative;   
+  height: 60vh;        
+  overflow: hidden;     
+}
+
+
+/*  Slider Image er jonno */
+.sliderImage {
+  width: 100%;           
+  height: 100%;          
+  object-fit: cover;     
+  display: block;     
+  padding: 0;            
+  margin: 0;
+  cursor: pointer;             
+}
+
+
+
+
+
+/*SLIDER ER NICHER IMAGE ER JONNO*/
+/* Main Parents Class (image) Dhorlamm, jate child class gola nijeder moto change korte pare */
+.image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 50px;
+}
+
+/* boc class dhorlam, box class holo caption er Parents  class */
+.box {
+  padding: 3px; 
+}
+.box img {
+  width:  600px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  padding-left: 220px;
+  padding-top:100px; 
+  border-radius: 200px;
+  margin-left: 20px;
+}
+
+/* Ayta akta Child class, ty kaj kore dilam...  */
+.caption {
+  position: absolute;           
+  padding: 10px 20px;
+  padding-left: 150px;             
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  white-space: normal;            
+}.caption p{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.736);
+}.caption h6{
+  font-size: 25px;
+/*  */
+} .caption h4{
+  font-size: 2.5rem;
+  padding-left: 30px;
+}.paragraph{
+  padding-left: 20px;
+}
+
+
+/* Buy it now and See more  eder jonno CLASS: buyitNow  */
+.buyitNow{ 
+ display: flex;
+ gap: 50px;
+}
+/* buy it now */
+ .buyitNow h2{
+  padding-left: 120px; 
+  font-size: 1rem;
+  padding-top: 10px;
+ }.buyitNow h2:hover{
+   color: rgb(0, 0, 255);
+  }
+  /* see more */
+  .buyitNow h3{
+  padding-left:0; 
+  font-size: 1rem;
+  padding-top: 10px;
+ }.buyitNow h3:hover{
+   color: blue;
+ }
+ /* dji flip er jonno alada kora: karon thik moto (buyIt class) boshtasilo naaa*/
+ .djiFlip{
+  display: flex;
+  gap: 50px;
+ }
+ /* buy it now */
+ .djiFlip h2{
+  padding-left:250px; 
+  font-size: 1rem;
+  padding-top: 10px;
+  } .djiFlip h2:hover{
+    color: blue;
+  }
+  /* see more */
+  .djiFlip h3{
+  padding-left:10px; 
+  font-size: 1rem;
+  padding-top: 10px;
+  } .djiFlip h3:hover{
+    color: blue;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+/* SET IMAGE, VIDEO,  AND IMAGE */
+/* Parents class dhorlam abong kaj kore dilaam */
+.container {
+  margin-top: 70px;
+  display: flex;      /* side by side rakhar jonno */
+  width: 100vw;        /* puraa viewport width */
+  height: 500px;        /* fixed height */
+  overflow: hidden;      /* jekhane jayga na thake shekhane katbe */
+}
+/* side image golar kaj kore dilamm */
+.sideImage {
+  position: relative;      /* image fill korar jonno */
+  flex-grow: 1;        /* baki jayga fill korbe */
+  height: 100%;         
+  overflow: hidden;    
+   
+}
+
+/* middle video er jonno kaj kore dilammmm */
+
+.video {
+  width: 900px;        
+  height: 100%;        
+  object-fit: cover;  /* video bhitore pura fill korbe, distort hobe na */
+  flex-shrink: 0;       /* choto hobe na */
+  z-index: 1;  /*Ayta na dile  video er uporer Link kaj korbenaa  */
+   
+}
+
+
+
+
+
+/* Video er  Caption */
+/* Parents a Position Dhorlam, jate Child gola tader nijeder moto change korte pare*/             
+.seeMoreInvideo{  
+  position: relative;
+
+}
+.seeMoreInvideo h1{
+  position: absolute;  
+  top: 10px;
+  left: 270px;
+  font-weight: bold; 
+  font-size: 2.6rem;  
+  color: rgb(255, 255, 255);
+
+
+}
+
+.seeMoreInvideo h3{
+  position: absolute;
+  top: 100px;
+  left: 310px;
+  color: white;
+  padding: 10px;
+  z-index: 1;  /*Ayta na dile link kaj korbe na..  */
+
+}.seeMoreInvideo h3:hover{
+  color: blue;
+}
+
+.seeMoreInvideo h4{
+  position: absolute;
+  top: 101px;
+  left: 450px;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  z-index: 1; /*Ayta na dile link kaj korbe na..  */
+
+}.seeMoreInvideo h4:hover{
+  color: blue;
+
+}
+
+
+
+
+  
+
+

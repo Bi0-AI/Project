@@ -1,0 +1,65 @@
+
+
+.aboutSection {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #222;
+  font-family: Arial, sans-serif;
+  margin-bottom: 360px;
+}
+
+.aboutSection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: navy;
+  text-align: center;
+}
+
+.aboutSection p {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+  margin-top: 30px;
+}
+
+
+
+/* Contact */
+.contact h1 {
+  font-size: 2.7rem; 
+  margin-bottom: 20px;
+  text-align: center;
+  color: navy;
+}
+
+.contact h2 {
+  font-size: 1.5rem;  
+  margin-bottom: 10px;
+  color: #1c1d1c;
+}
+
+.value {
+  font-weight: bold;   
+  font-style: italic;  
+  margin-left: 8px;
+  color: #222;    
+}
+
+
+.value a {
+  color: rgb(102, 102, 236); 
+  text-decoration: none; 
+  border-bottom: 2px solid rgb(64, 0, 255);  /* UnderLine korbar jonno */
+  padding-bottom: 2px; 
+  transition: border-color 0.3s ease; 
+}
+
+.value a:hover {
+  color: rgba(20, 20, 235, 0.383); 
+}

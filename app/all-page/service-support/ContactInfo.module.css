@@ -1,0 +1,102 @@
+
+
+
+
+/* Main div... */
+.contactInfo {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #1e1c1c;
+  box-shadow: 0 2px 8px rgba(47, 42, 42, 0.1);
+  margin-bottom: 230px;
+  margin-top: 100px;
+}
+
+.contactInfo h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.contactInfo form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contactInfo textarea {
+  padding: 2px;
+  border-radius: 10px;
+  border: 1px solid #837f7f;
+  font-size: 16px;
+  width: 100%;
+}
+
+
+.contactInfo button {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactInfo  button:hover {
+  background-color: #0f5398;
+}.contactInfo input{
+  padding: 12px;
+  border-radius: 12px;
+  border-color:  rgb(185, 178, 178) ;
+   
+}
+
+
+
+
+
+/* Responsive design */
+/* Responsive design */
+@media (max-width: 600px) {
+  .contactInfo {
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+
+  .contactInfo h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .contactInfo form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contactInfo input,
+  .contactInfo textarea {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    width: 100%;
+  }
+
+  .contactInfo button {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+  }
+}
+

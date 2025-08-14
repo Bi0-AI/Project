@@ -1,0 +1,113 @@
+
+.container{
+  padding: 40px;
+  text-align: center;
+}.h1{
+  font-size: 4rem;
+  padding-top: 50px;
+  color: navy;
+}
+
+
+
+/* AYTA SHOB IMAGE CONTRON KORBE.. */
+.controlImage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2-ta kore ek line e */
+  gap:20px;
+  justify-items: center;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 12px rgba(87, 84, 84, 0.849); */
+  padding-top: 150px;
+}
+.headding img{
+    padding: 20px;
+}
+.headding h1 {
+  font-size: 3rem;
+}
+.headding p {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Buy Button design */
+.button button{
+    color:rgb(243, 240, 240);
+    background-color: hsl(240, 73%, 66%);
+    border-radius: 25px;
+    border-style: none;
+    font-size: 17px;
+    padding: 9px;
+    margin-left: 8px;
+  
+}.button button:hover{
+    background-color: hsl(240, 73%, 46%);
+    cursor: pointer;
+}.button{
+    font-size: 1.7rem;
+    padding: 2px;
+    margin-right: 2px;
+
+}
+
+
+
+
+
+/* For sawing: See more button.... */
+.seeMore{
+    background-color:#f6e6cb;
+    font-size: 17px;
+    color: rgb(0, 0, 3);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    border-style: none;
+
+}.seeMore:hover{
+  background-color:#eaaa3b;
+}
+
+
+
+
+
+
+/* responsive design */
+@media (max-width: 700px) {
+
+  .controlImage {
+    grid-template-columns: 1fr; /* mobile 1 coloms*/
+    padding-top: 50px;
+    margin-right: 0;
+  }
+
+  .headding img {
+    padding: 10px;
+    max-width: 100%; /* Mobile a image jeno  baire na jai.....*/
+    height: auto;
+  }
+
+  .headding h1 {
+    font-size: 2rem;
+  }
+
+  .headding p {
+    font-size: 1rem;
+    padding: 8px;
+
+  }.button button{
+    font-size: 1rem;
+  }.button{
+    font-size: 1.8rem;
+  }
+}

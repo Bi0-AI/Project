@@ -1,0 +1,115 @@
+.outdoor{
+    padding: 40px;
+    align-items: center;
+}
+.outdoorContant {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+
+}.outdoor h1{
+ margin-top: 100px;
+ text-align: center;
+ font-size: 3rem;
+ margin-bottom: 60px;
+ color: navy;
+}
+
+
+
+/* For top Image... */
+.Image3{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    box-shadow: 0 4px 12px rgba(33, 2, 2, 0.858);
+    border-radius: 18px;
+    /* For  down Image */
+}.Image4{
+    padding: 20px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    box-shadow: 0 4px 12px rgba(33, 2, 2, 0.858);
+    border-radius: 18px;
+}
+
+
+
+
+/* Likha dewar jonno */
+.handheldCam {
+ justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+.handheldCam div{
+font-size: 1.7rem;
+
+}
+.handheldCam h2{
+color: hsla(300, 3%, 6%, 0.801)
+
+}.handheldCam {
+  color: rgb(22, 22, 22);
+
+/* Shob button er jonno */
+}.button button{
+  padding: 10px;
+  margin: 10px;
+  background-color: hsla(240, 73%, 65%, 0.881);
+  font-size: 18px;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}.button button:hover{
+  background-color: hsl(240, 82%, 51%);
+}
+
+
+
+
+/* For sawing: See more button.... */
+.seeMore{
+    background-color:#f6e6cb;
+    font-size: 17px;
+    color: rgb(0, 0, 3);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    border-style: none;
+
+}.seeMore:hover{
+  background-color:#ebb04a;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px){
+    .outdoorContant{
+    gap: 150px;
+    grid-template-columns:1fr;
+    }
+    .Image3 {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+
+
+}

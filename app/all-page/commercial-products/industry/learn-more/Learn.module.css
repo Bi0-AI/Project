@@ -1,0 +1,70 @@
+
+
+
+/* Parebt class  Dhorlammm (dronelist) */
+.dronelist {
+  margin-top: 50px;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 100px;
+  color: navy;
+  font-size: 1.7rem;
+  padding-top: 40px;
+}
+
+
+
+
+/* Child class, Ayta diye Droner vhitorer shob koraaaaa */
+.dronecard {
+  background: #ecd9ec;
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+
+  transition: all 0.4s ease-in-out;
+}
+/* hober korlam */
+.dronecard:hover {
+  box-shadow: 0px 20px 20px rgba(227, 133, 133, 0.874);
+  transform: translateY(-30px);
+  border:8px solid #180119; ;
+  border-radius:20px;
+  padding: 30px;
+  background: #e69191d7;
+
+}
+
+
+/* Droner naam */
+.dronecard h2 {
+  color: rgb(0, 0, 84);
+  margin-bottom: 10px;
+  font-size: 1.7rem;
+}
+
+/*Unorder List */
+.dronecard ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Droner list item golaaa */
+.dronecard li {
+  margin-bottom: 5px;
+  padding: 8px;
+  background: #daf0eccd;
+  border-radius: 5px;
+}
+
+
+/* Droner ki ki korte pare: */
+.dronecard strong {
+  color: #4d5ae9;
+  font-size: 1.3rem;
+  padding: 4px 4px;
+}

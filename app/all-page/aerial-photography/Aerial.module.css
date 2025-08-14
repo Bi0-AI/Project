@@ -1,0 +1,120 @@
+
+
+/* Main div */
+.aerial {
+  padding: 40px;
+  text-align: center;
+ background-color: #1d120214;
+  
+}
+.aerial h1{
+padding: 30px;
+margin-bottom: 30px;
+font-size: 3rem;
+font-weight: bold;
+color: navy;
+}
+
+/* Extra Large image */
+.Image1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgb(34, 2, 2);
+}
+
+
+
+
+
+/* Image er  modde likha dewa */
+
+.imageWrapper h2{
+  color: hsl(180, 21%, 12%);
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.imageWrapper p{
+ color: hsl(180, 21%, 12%);
+  font-size: 16px;
+}
+/* For buy button dewa.. */
+.button{
+  justify-content: center;
+  border-style: none;
+}
+
+
+
+
+
+/* Button.... */
+.button button{
+  padding: 10px;
+  margin: 10px;
+  background-color: hsl(240, 74%, 70%);
+  font-size: 18px;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}.button button:hover{
+  background-color: hsl(240, 87%, 52%);
+}.button{
+  font-size: 1.7rem;
+}
+
+
+/* For sawing: See more.... */
+.seeMore{
+    background-color: #f3e5cd;
+    font-size: 17px;
+    color: rgb(0, 0, 3);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    border-style: none;
+
+}.seeMore:hover{
+  background-color: #eba129;
+}
+
+
+
+
+/* 2nd div: control all image*/
+.aerialControl{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2-ta kore ek line e */
+  gap: 30px;
+  justify-items: center;
+  border-radius: 10px;
+
+}
+
+  .aerialControl img{
+    border:3px solid rgba(12, 0, 0, 0.926);
+    border-radius: 20px;
+   background-color: aliceblue;
+  }
+
+
+
+
+/* esponsive design for all device... */
+@media (max-width: 768px) {
+  .aerialControl {
+    grid-template-columns: 1fr; /* mobile a akta kore image dekhabe..*/
+  }.Image1 {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+.aerial h1{
+    margin-top: 100px;
+    position: static;
+}
